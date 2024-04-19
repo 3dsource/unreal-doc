@@ -60,7 +60,9 @@ fn main() {
     }
     document.resolve_injects();
     document.resolve_self_names_in_docs();
-    document.sort_items_by_name();
+
+    //Disable sorting.
+    //document.sort_items_by_name();
 
     match config.backend {
         Backend::Json => bake_json(&document, &config),
