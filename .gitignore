@@ -2,3 +2,4 @@
 /resources/docs
 .vscode
 Cargo.lock
+.idea/
